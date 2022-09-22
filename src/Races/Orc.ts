@@ -1,6 +1,6 @@
 import Race from './Race';
 
-class Orc extends Race {
+export default class Orc extends Race {
   private static _racesInstances = 0;
   private _maxLifePoints: number;
 
@@ -18,5 +18,3 @@ class Orc extends Race {
     return this._racesInstances;
   }
 }
-
-export default Orc;
