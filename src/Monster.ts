@@ -1,10 +1,10 @@
-import { SimpleFighter } from './Fighter';
+import SimpleFighter from './Fighter/SimpleFighter';
 
 export default class Monster implements SimpleFighter {
   private _lifePoints: number;
   private _strength: number;
 
-  constructor(private _name: string) {
+  constructor() {
     this._lifePoints = 85;
     this._strength = 63;
   }
